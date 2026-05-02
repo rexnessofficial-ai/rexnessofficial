@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart - Rexness Official Store | Born To Be Legendary</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header id="header">
+        <a href="index.html"><img src="img/logo676.png" class="logo" alt=""></a>
+
+        <nav>
+            <ul id="navbar">
+                <li> <a href="index.html">Home</a></li>
+                  <li> <a href="shop.html">Shop</a></li>
+                <li> <a href="men.html">Men</a></li>
+                <li> <a href="women.html">Women</a></li>
+                <li> <a href="accessories.html">Accessories</a></li>
+                <li> <a href="about.html">About Us</a></li>
+                 <li> <a href="guide.html">Guide</a></li>
+            </ul>
+        </nav>
+
+        <div class="header-icons">
+            <div class="search-bar">
+                <input type="text" class="search-input" placeholder="Search">
+                <button class="search-clear-btn" style="display: none;">CANCEL</button>
+                <button class="search-btn"><i class="fa fa-search" aria-hidden="true"></i></button>
+            </div>
+            <a href="like.html"><i class="fa fa-heart" aria-hidden="true"></i></a>
+            <a href="cart.html"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
+            <a href="profile.html"><i class="fa fa-user" aria-hidden="true"></i></a>
+            <i class="fa fa-bars mobile-menu-btn" aria-hidden="true"></i>
+        </div>
+    </header>
+
+    <div class="mobile-overlay"></div>
+
+    <section class="section-title">
+        <h4>SHOPPING CART</h4>
+        <h2>Your Cart</h2>
+        <p>Review your items and proceed to checkout.</p>
+    </section>
+
+    <section style="padding: 80px 60px; background-color: var(--primary-white);">
+        <div style="max-width: 1000px; margin: 0 auto;">
+            <div style="text-align: center; margin-bottom: 60px;">
+                <i class="fa fa-shopping-bag" style="font-size: 64px; color: var(--text-light-gray); margin-bottom: 30px;"></i>
+                <h3 style="color: var(--text-dark); margin-bottom: 20px;">Your cart is empty</h3>
+                <p style="color: var(--text-gray); margin-bottom: 40px; max-width: 400px; margin-left: auto; margin-right: auto;">
+                    Looks like you haven't added anything to your cart yet. Start shopping to fill it up!
+                </p>
+                <a href="shop.html" class="btn">Continue Shopping</a>
+            </div>
+
+            <!-- Cart items would go here when items are added -->
+            <!--
+            <div style="display: grid; grid-template-columns: 2fr 1fr; gap: 40px; margin-bottom: 40px;">
+                <div>
+                    <div style="border: 1px solid var(--border-light); border-radius: 8px; padding: 20px; margin-bottom: 20px;">
+                        <div style="display: flex; gap: 20px;">
+                            <img src="img/product/f1.jpg" alt="" style="width: 80px; height: 80px; object-fit: cover; border-radius: 4px;">
+                            <div style="flex: 1;">
+                                <h4 style="color: var(--text-dark); margin-bottom: 8px;">Origin Shirt</h4>
+                                <p style="color: var(--text-gray); margin-bottom: 12px;">Size: M | Color: Black</p>
+                                <div style="display: flex; justify-content: space-between; align-items: center;">
+                                    <div style="display: flex; align-items: center; gap: 10px;">
+                                        <button style="border: 1px solid var(--border-light); background: var(--primary-white); padding: 5px 10px; cursor: pointer;">-</button>
+                                        <span>1</span>
+                                        <button style="border: 1px solid var(--border-light); background: var(--primary-white); padding: 5px 10px; cursor: pointer;">+</button>
+                                    </div>
+                                    <span style="font-weight: 600; color: var(--text-dark);">RM67.00</span>
+                                </div>
+                            </div>
+                            <button style="background: none; border: none; color: var(--text-light-gray); cursor: pointer; font-size: 18px;">×</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div style="border: 1px solid var(--border-light); border-radius: 8px; padding: 20px;">
+                        <h4 style="color: var(--text-dark); margin-bottom: 20px;">Order Summary</h4>
+                        <div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
+                            <span>Subtotal</span>
+                            <span>RM67.00</span>
+                        </div>
+                        <div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
+                            <span>Shipping</span>
+                            <span>RM10.00</span>
+                        </div>
+                        <hr style="border: none; border-top: 1px solid var(--border-light); margin: 15px 0;">
+                        <div style="display: flex; justify-content: space-between; font-weight: 600; margin-bottom: 20px;">
+                            <span>Total</span>
+                            <span>RM77.00</span>
+                        </div>
+                        <button class="btn" style="width: 100%;">Checkout</button>
+                    </div>
+                </div>
+            </div>
+            -->
+        </div>
+    </section>
+
+    <section class="newsletter">
+        <h4>JOIN THE CREW</h4>
+        <p>Sign up for early access to new drops and exclusive offers.</p>
+        <form class="newsletter-form" id="newsletter-form">
+            <input type="email" name="email" placeholder="Enter your email" required aria-label="Email address">
+            <button type="submit" class="btn">Subscribe</button>
+        </form>
+        <div id="newsletter-message" style="display: none; margin-top: 10px; color: var(--accent-volt);"></div>
+    </section>
+
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h4>Shop</h4>
+                <ul>
+                    <li><a href="men.html">Men's</a></li>
+                    <li><a href="women.html">Women's</a></li>
+                    <li><a href="accessories.html">Accessories</a></li>
+                    <li><a href="men.html">New Arrivals</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Help</h4>
+                <ul>
+                    <li><a href="#">Shipping</a></li>
+                    <li><a href="#">Returns</a></li>
+                    <li><a href="#">Size Guide</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Press</a></li>
+                    <li><a href="#">Sustainability</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Follow Us</h4>
+                <div class="social-links">
+                    <a href="#" class="social-facebook" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-instagram" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-tiktok" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                    <a href="#" class="social-x" aria-label="X"><span style="font-size: 16px; font-weight: bold; color: white;">X</span></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
